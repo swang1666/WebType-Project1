@@ -23,12 +23,30 @@ body {
   height: 100vh;
   flex: 3;
   background-color: #252525;
+  position: relative;
 }
 
 .right2 {
   height: 100vh;
   flex: 2;
   background-color: #ededed;
+}
+
+.gif1 {
+  margin-top: 10%;
+  min-height: auto;
+  min-width: 40%;
+  max-width: 50%;
+  position: absolute;
+}
+
+.title2 {
+  margin-top: 0;
+  margin-left: .3in;
+  color: #ededed;
+  font-family: monospace;
+  font-size: 15vmax;
+  position: relative;
 }
 
 .p1 {
@@ -91,20 +109,7 @@ body {
   }
 }
 
-.title1 {
-  margin-top: .1in;
-  min-height: auto;
-  min-width: 70%;
-  max-width: 100%;
-}
 
-.title2 {
-  margin-top: 0;
-  margin-left: .3in;
-  color: #ededed;
-  font-family: monospace;
-  font-size: 15vmax;
-}
 
 h2 {
   margin-left: .3in;
@@ -147,5 +152,4 @@ h2::after {
   to {
     background: transparent;
   }
-
 }
