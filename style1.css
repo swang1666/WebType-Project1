@@ -34,7 +34,7 @@ body {
 .p1 {
   margin-left: .5in;
   margin-right: 1in;
-  margin-top: 2in;
+  margin-top: .5in;
   font-family: monospace;
   font-size: 1.25em;
   line-height: 25px;
@@ -106,6 +106,46 @@ body {
   font-size: 15vmax;
 }
 
-.wrapper2 {
-  display: flex;
+h2 {
+  margin-left: .3in;
+  margin-right: 1in;
+  margin-top: 2in;
+  font-family: monospace;
+  font-size: 1.6em;
+  line-height: 25px;
+  position: relative;
+}
+
+h2::before,
+h2::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+h2::before {
+  background: #ededed;
+  animation: typewriter 4s steps(34) forwards;
+}
+
+h2::after {
+  width: .125em;
+  background: black;
+  animation: typewriter 4s steps(34) forwards, blink 500ms steps(34) infinite;
+}
+
+@keyframes typewriter {
+  to {
+    left: 100%;
+  }
+}
+
+@keyframes blink {
+  to {
+    background: transparent;
+  }
+
 }
