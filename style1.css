@@ -42,6 +42,7 @@ body {
 
 .gif2 {
   margin-top: 5%;
+  margin-left: 10%;
   min-height: auto;
   min-width: 80%;
   max-width: 80%;
@@ -95,7 +96,7 @@ body {
 .p4 {
   margin-left: .5in;
   margin-right: 1in;
-  margin-top: 25%;
+  margin-top: 20%;
   font-family: monospace;
   font-size: 1.25em;
   line-height: 25px;
